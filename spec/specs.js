@@ -8,4 +8,10 @@ describe('Ticket', function() {
     var testTicket  = new Ticket(7.50);
     expect(testTicket.seniorPrice).to.equal(7.50);
   });
+
+  it("will give a discounted price for a Youth Admission", function() {
+    var testTicket  = new Ticket(5.00);
+    expect(testTicket.youthPrice).to.equal(5.00);
+
+  });
 });
