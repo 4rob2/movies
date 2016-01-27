@@ -9,8 +9,45 @@
     <title>Movie Tickets</title>
   </head>
   <body>
-    <h1>Movie tickets!</h1>
+    <h1>Movie Tickets!</h1>
     <h2>Get your movie tickes online here!</h2>
-    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form id="showTimes">
+            <div class="form-group">
+              <label for="movie">
+              <h4>Choose movie below:</h4>
+              </label>
+              <select id="movie">
+                <option>StarWars</option>
+                <option>LegoMovie</option>
+                <option>Revenant</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="age">
+              <h4>Choose your age group below:</h4>
+              </label>
+              <select id="age">
+                <option>Adult</option>
+                <option>Senior over 55</option>
+                <option>Youth under 13</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="movietime">
+              <h4>Choose movie showtime below:</h4>
+              </label>
+              <select id="movietime">
+                <option>7pm</option>
+                <option>4pm</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
